@@ -1,0 +1,44 @@
+.butBuy{
+    width:172px;
+    height:53.19px;
+    margin:40px 0 0 0 ;
+    padding: 17px 117px 16.1875px 55.109375px;
+    border-radius: 6px;
+    border: 2px;
+    background: #A30040;
+    color: white;
+}
+.butBuy2{
+    width:172px;
+    height:53.19px;
+    margin:40px 0 0 44px ;
+    border-radius: 6px;
+    border: 2px solid #A30040;
+    color: #A30040;
+    background: white;
+}
+@media screen and (max-width:745px){
+    .butBuy{
+        width:172px;
+        height:45px;
+        margin:20px 0 0 0 ;}
+    .butBuy2{
+        width:172px;
+        height:45px;
+        margin:20px 0 0 44px ;
+    }
+}
+@media screen and (max-width:365px){
+    .butBuy{
+        width:140px;
+        height:42px;
+        margin:10px 0 0 0 ;
+        padding: 0;
+    }
+    .butBuy2{
+        width:140px;
+        height:42px;
+        margin:10px 0 0 5px ;
+        padding: 0;
+    }
+}

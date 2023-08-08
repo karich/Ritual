@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 800px;
+    height: 403px;
+    padding: 0;
+}
+.slider{
+    max-width: 90%;
+    position: absolute;
+    margin: 0 auto;
+}
+.item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider .item .item_col {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 403px;
+}
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+

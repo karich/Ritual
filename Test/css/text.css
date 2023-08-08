@@ -1,0 +1,211 @@
+.contentText{
+    transform: skewX(20deg) ;
+    margin: 71px 0 0 122px ;
+    font: Gilroy;
+}
+.textOne{
+    font-size: 24px;
+    margin: 0;
+}
+.textTwo{
+    font-size: 48px;
+    margin: 0;
+}
+.text3{
+    width: 501px;
+    font-size: 18px;
+    line-height: 22.5px;
+    margin:15px 0 0 0 ;
+    font-weight: 500;
+}
+.textOrder{
+    transform: skewX(20deg) ;
+    margin: 0 0 0 -20px  ;
+}
+.textOrder2{
+    margin: 120px 0 0 150px;
+}
+.TextInfo{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin: 12px;
+}
+.textPam{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin: 12px;
+}
+.textName{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin: 12px;
+}
+.TextPriceOld{
+    font-family: Inter;
+font-size: 19px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color: #8B8B8B;
+margin: 12px;
+}
+.TextPrice{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin: 12px;
+}
+li{
+    margin: 20px 0 0 0;
+}
+
+.specialText{
+    font-family: Akaya Kanadaka;
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+color: #FFFFFF;
+margin: 25px 0 0 30px;
+}
+@media screen and (max-width:745px){
+    .contentText{
+        transform: skewX(0) ;
+        margin: 71px 0 0 122px ;
+        font: Gilroy;
+    }
+    .textOne{
+        font-size: 16px;
+        margin: 0;
+    }
+    .textTwo{
+        font-size: 32px;
+        margin: 0;
+    }
+    .text3{
+        width: 501px;
+        font-size: 12px;
+        line-height: 14px;
+        margin:15px 0 0 0 ;
+        font-weight: 500;
+    }
+    .textOrder{
+        transform: skewX(0) ;
+        margin: 0 0 0 -20px  ;
+    }
+    .textOrder2{
+        margin: 30px 0 0 40px;
+    }
+    .TextInfo{
+        font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px;
+    }
+    .textPam{
+        font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 12px;
+    }
+    .textName{
+        font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 12px;
+    }
+    .TextPriceOld{
+        font-family: Inter;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8B8B8B;
+    margin: 12px;
+    }
+    .TextPrice{
+        font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 12px;
+    }
+    li{
+        margin: 20px 0 0 0;
+    }
+    
+    .specialText{
+        font-family: Akaya Kanadaka;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px 0 0 30px;
+    }
+}
+@media screen and (max-width:365px){
+    .contentText{
+        transform: skewX(0) ;
+        margin: 71px 0 0 0 ;
+        font: Gilroy;
+    }
+    .text3{
+        width: 365px;
+        font-size: 12px;
+        line-height: 14px;
+        margin:5px 0 0 0 ;
+        font-weight: 500;
+        padding: 0;
+    }
+    .textOrder{
+        transform: skewX(0) ;
+        margin: 0 0 0 -20px  ;
+    }
+    .textOrder2{
+        display: none;
+    }
+    
+    .specialText{
+        font-family: Akaya Kanadaka;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px 0 0 10px;
+    }
+}
